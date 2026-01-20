@@ -2,6 +2,24 @@
 
 Input Jiggler is a Python application that simulates mouse and keyboard inputs to keep your computer active, useful for preventing screen locks or simulating user activity. It supports random or recorded input patterns, a graphical user interface (GUI), and a command-line interface (CLI). The project includes hotkey support for controlling the simulation and a robust test suite.
 
+---
+
+⚠️ **LICENSE & USAGE NOTICE — READ FIRST**
+
+This repository is **source-available for private technical evaluation and testing only**.
+
+- ❌ No commercial use  
+- ❌ No production use  
+- ❌ No academic, institutional, or government use  
+- ❌ No research, benchmarking, or publication  
+- ❌ No redistribution, sublicensing, or derivative works  
+- ❌ No independent development based on this code  
+
+All rights remain exclusively with the author.  
+Use of this software constitutes acceptance of the terms defined in **LICENSE.txt**.
+
+---
+
 ## Features
 - **Mouse and Keyboard Simulation**: Simulates mouse movements, clicks, and key presses (e.g., `space`, `enter`).
 - **Random Mode**: Generates random input patterns for realistic activity.
@@ -124,18 +142,32 @@ The project includes a test suite to ensure reliability.
 - **Simulation Speed**: Use `--config low` to reduce intensity if the simulation feels too fast.
 - **Logs**: Use `--log-file jiggler.log` to debug issues.
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Commit changes (`git commit -m "Add feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
 ## Future Enhancements
 - Add a stats chart (e.g., mouse movement frequency) using Chart.js.
 - Implement a plugin system for custom input patterns.
 - Expand test coverage for `simulators.py` and `cli.py`.
 - Support additional platforms (e.g., Linux via `pynput`).
 
+## Contribution Policy
+
+Feedback, bug reports, and suggestions are welcome.
+
+You may submit:
+
+- Issues
+- Design feedback
+- Pull requests for review
+
+However:
+
+- Contributions do not grant any license or ownership rights
+- The author retains full discretion over acceptance and future use
+- Contributors receive no rights to reuse, redistribute, or derive from this code
+
+---
+
 ## License
-This project is licensed under the MIT License.
+This project is not open-source.
+
+It is licensed under a private evaluation-only license.
+See LICENSE.txt for full terms.
